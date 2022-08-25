@@ -1,0 +1,42 @@
+body {
+    background: rgb(50, 50, 50);
+    color: goldenrod;
+}
+
+.page-header {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    margin: 0;
+    padding: 24px;
+}
+
+.page-header h1 {
+    margin: 0;
+}
+
+.scoreboard {
+    text-align: center;
+}
+
+.scores {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.weapons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.weapon {
+    background-color: inherit;
+    border: 0;
+}
+
+.weapon:hover {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    cursor: pointer;
+}
