@@ -5,9 +5,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock Paper Scissors</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' integrity='sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==' crossorigin='anonymous'/>
+  <link rel="stylesheet" href="style.css">
   <script src="main.js"></script>
 </head>
 <body>
-    
+    <header class="page-header">
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <main class="main">
+      <section class="scoreboard">
+        <h2>First to score 5 points wins game</h2>
+        <div class="scores">
+          <div class="score-box">
+            <div class="choice">?</div>
+            <div class="score">0</div>
+          </div>
+          <div class="score-box">
+            <div class="choice">?</div>
+            <div class="score">0</div>
+          </div>
+        </div>
+      </section>
+      <section class="weapons">
+        <button class="weapon">
+          <img src="images/rock.png" alt="Rock">
+        </button>
+        <button class="weapon">
+          <img src="images/paper.png" alt="Paper">
+        </button>
+        <button class="weapon">
+          <img src="images/scissors.png" alt="Scissors">
+        </button>
+      </section>
+    </main>
 </body>
 </html>
